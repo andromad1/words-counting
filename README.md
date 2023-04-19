@@ -47,6 +47,9 @@ The program should display the table content below<br>
 </tbody>
 </table>
 
+<b>Solution</b><br><br>
+The project consists of two modules - `analyzing` and `GUI`. The `analyzing` module produces the `analyzing-1.0-SNAPSHOT.jar` file and the `GUI` module produces the `GUI-1.0-SNAPSHOT.jar` file. `analyzing-1.0-SNAPSHOT.jar` is responsible for reading and parsing text from a file, counting unique words and sorting them by number of occurrences, while `GUI-1.0-SNAPSHOT.jar` is responsible for displaying a graphical user interface that allows the user to select a file, start the analysis process, interrupt the analysis (if necessary) and view the analysis results.
+
 <b>Building and running</b><br><br>
 Prerequisites: Maven, JDK/JRE, JavaFX.<br><br>
 Build:<br>
