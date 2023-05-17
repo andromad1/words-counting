@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>analyzing</module>
-        <module>GUI</module>
+        <module>gui</module>
     </modules>
 
     <properties>
