@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>ua.com.andromad.misc</groupId>
-        <artifactId>wordsCount</artifactId>
+        <artifactId>words-count</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>analyzing</artifactId>
+    <artifactId>words-count-analyzing</artifactId>
     <packaging>jar</packaging>
 
     <build>
