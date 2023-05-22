@@ -48,14 +48,17 @@ The program should display the table content below<br>
 </table>
 
 <b>Solution</b><br><br>
-The project consists of two modules - `analyzing` and `GUI`. The `analyzing` module produces the `analyzing-1.0-SNAPSHOT.jar` file and the `GUI` module produces the `GUI-1.0-SNAPSHOT.jar` file. `analyzing-1.0-SNAPSHOT.jar` is responsible for reading and parsing text from a file, counting unique words and sorting them by number of occurrences, while `GUI-1.0-SNAPSHOT.jar` is responsible for displaying a graphical user interface that allows the user to select a file, start the analysis process, interrupt the analysis (if necessary) and view the analysis results.
+The project consists of two modules - `analyzing` and `gui`. The `analyzing` module produces the `words-count-analyzing-1.0-SNAPSHOT.jar` file and the `gui` module produces the `words-count-gui-1.0-SNAPSHOT.jar` file. `words-count-analyzing-1.0-SNAPSHOT.jar` is responsible for reading and parsing text from a file, counting unique words and sorting them by number of occurrences, while `words-count-gui-1.0-SNAPSHOT.jar` is responsible for displaying a graphical user interface that allows the user to select a file, start the analysis process, interrupt the analysis (if necessary) and view the analysis results.
 
 <b>Building and running</b><br><br>
 Prerequisites: Maven, JDK/JRE, JavaFX.<br><br>
 Build:<br>
 <code>mvn package</code><br><br>
 Running in Windows:<br>
-<code>java --module-path "<PATH_TO_JAVAFX_LIB_DIR>" --add-modules javafx.controls,javafx.fxml -cp ".\analyzing\target\analyzing-1.0-SNAPSHOT.jar;.\GUI\target\GUI-1.0-SNAPSHOT.jar" ua.com.andromad.misc.wordsCount.GUIwordsCount</code>
+<code>java --module-path "<PATH_TO_JAVAFX_LIB_DIR>" --add-modules javafx.controls,javafx.fxml -cp ".\analyzing\target\words-count-analyzing-1.0-SNAPSHOT.jar;.\gui\target\words-count-gui-1.0-SNAPSHOT.jar" ua.com.andromad.misc.wordsCount.GUIwordsCount</code>
 <br><br>
 Running in Linux:<br>
-<code>java --module-path <PATH_TO_JAVAFX_LIB_DIR> --add-modules javafx.controls,javafx.fxml -cp ./analyzing/target/analyzing-1.0-SNAPSHOT.jar:./GUI/target/GUI-1.0-SNAPSHOT.jar ua.com.andromad.misc.wordsCount.GUIwordsCount</code>
+<code>java --module-path <PATH_TO_JAVAFX_LIB_DIR> --add-modules javafx.controls,javafx.fxml -cp ./analyzing/target/words-count-analyzing-1.0-SNAPSHOT.jar:./gui/target/words-count-gui-1.0-SNAPSHOT.jar ua.com.andromad.misc.wordsCount.GUIwordsCount</code>
+
+<b>Quick run</b><br><br>
+You can just download the appropriate pre-built jar-files from the Packages section of the project's main page on GitHub and run the program in the same way as described in the Build and Run section.
