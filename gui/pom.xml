@@ -36,7 +36,7 @@
         </dependency>
         <dependency>
             <groupId>ua.com.andromad.misc</groupId>
-            <artifactId>analyzing</artifactId>
+            <artifactId>words-count-analyzing</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
