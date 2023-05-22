@@ -35,7 +35,7 @@ The program should display the table content below<br>
 <table>
 <thead>
 <tr><th>Word</th><th>Occurrence</th></tr>
-<thead>
+</thead>
 <tbody>
 <tr><td>Adam</td><td>2</td></tr>
 <tr><td>Seth</td><td>2</td></tr>
